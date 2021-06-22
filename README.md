@@ -123,3 +123,4 @@ Strong Entity인 Movie, Person, Review와 Weak Entity인 Role,직업들 등 총 
 ![Screenshot of create statement](Images/Table_create.png)
 ### 3. 적절한 Query를 이용하여 배우, 감독, 영화 등을 검색 -> 원하는 결과값 나오는지 확인
 ![Screenshot of Query](Images/Query.png)
+![Screenshot of Query result](Images/Query_result.png)
