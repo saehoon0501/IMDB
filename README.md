@@ -109,13 +109,13 @@ our terms and conditions. Please refer to the
 [Non-Commercial Licensing](https://help.imdb.com/article/imdb/general-information/can-i-use-imdb-data-in-my-software/G5JTRESSHJBBHTGX?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3aefe545-f8d3-4562-976a-e5eb47d1bb18&pf_rd_r=0J8FC9NDYKWB18MEW883&pf_rd_s=center-1&pf_rd_t=60601&pf_rd_i=interfaces&ref_=fea_mn_lk1#) and [copyright/license](https://www.imdb.com/conditions?pf_rd_m=A2FGELUUNOQJNL&pf_rd_p=3aefe545-f8d3-4562-976a-e5eb47d1bb18&pf_rd_r=0J8FC9NDYKWB18MEW883&pf_rd_s=center-1&pf_rd_t=60601&pf_rd_i=interfaces&ref_=fea_mn_lk2) and verify compliance.
 
 ## E/R Diagram
-    ![Drawing of ER Diagram](Images/ER_diagram.png)
+![Drawing of ER Diagram](Images/ER_diagram.png)
 Strong Entity인 Movie, Person, Review와 Weak Entity인 Role,직업들 등 총 11개의 객체들 및 그들의 속성 그리고 각 객체간의 관계를 표현.
 
 
 
 ## Table Schema
-    ![Drawing of Table Schema](Images/Table_Schema.png)
+![Drawing of Table Schema](Images/Table_Schema.png)
 ER Diagram을 바탕으로 Relational DB를 표현하였다. 객체들의 Cardinality, 기본키, 외래키, 속성들을 표시
 
 ## 작성된 Table Schema를 토대로 Relation DB 설계 코드
