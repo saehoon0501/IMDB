@@ -1,7 +1,5 @@
 # IMDB
-IMDB에서 주어진 데이터를 활용해 Relation DB 구축
-
-## IMDB 데이터
+IMDB에서 주어진 데이터를 활용해 MySQL에 Relation DB 구축
 [IMDB](https://www.imdb.com/interfaces/)에서 제공해주는 데이터에 대한 설명들
 
 ### name.basics.tsv.gz
@@ -118,10 +116,10 @@ Strong Entity인 Movie, Person, Review와 Weak Entity인 Role,직업들 등 총 
 ![Drawing of Table Schema](Images/Table_Schema.png)
 ER Diagram을 바탕으로 Relational DB를 표현하였다. 객체들의 Cardinality, 기본키, 외래키, 속성들을 표시
 
-## 작성된 Table Schema를 토대로 Relation DB 설계 코드
-
+## 작성된 Table Schema를 토대로 Relation DB 설계 예시
 ### 1.다운한 IMDB 파일을 읽어 MySQL에 데이터 삽입
-
+![Screenshot of data insert](Images/insert_data.png)
 ### 2.삽입된 데이터들을 이용해 직접 Table 생성, 데이터 삽입 및 Indexing
-
+![Screenshot of create statement](Images/Table_create.png)
 ### 3.적절한 Query를 이용하여 배우, 감독, 영화 등을 검색 -> 원하는 결과값 나오는지 확인
+![Screenshot of Query](Images/Query.png)
