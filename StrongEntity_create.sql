@@ -3,8 +3,8 @@
 create table Movie(
 	title_id varchar(20),
     title_type varchar(20),
-    primary_title varchar(200),
-    original_title varchar(200),
+    primary_title varchar(2048),
+    original_title varchar(2048),
     is_adult boolean,
     start_year int,
     end_year int,
