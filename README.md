@@ -114,7 +114,7 @@ Strong Entity인 Movie, Person, Review와 Weak Entity인 Role,직업들 등 총 
 
 ## Table Schema
 ![Drawing of Table Schema](Images/Table_Schema.png)
- ER Diagram을 바탕으로 Relational DB를 표현		
+ ER Diagram을 바탕으로 Relational DB를 표현,		
  객체들의 Cardinality, 기본키, 외래키, 속성들을 표시		
 
 ## 작성된 Table Schema를 토대로 Relation DB 설계 예시
