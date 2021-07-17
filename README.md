@@ -110,11 +110,12 @@ our terms and conditions. Please refer to the
 
 ## E/R Diagram
 ![Drawing of ER Diagram](Images/ER_diagram.png)
-Strong Entity인 Movie, Person, Review와 Weak Entity인 Role,직업들 등 총 11개의 객체들 및 그들의 속성 그리고 각 객체간의 관계를 표현.
+Strong Entity인 Movie, Person, Review와 Weak Entity인 Role,직업들 등 총 11개의 객체들 및 그들의 속성 그리고 각 객체간의 관계를 표현
 
 ## Table Schema
 ![Drawing of Table Schema](Images/Table_Schema.png)
- ER Diagram을 바탕으로 Relational DB를 표현하였다. 객체들의 Cardinality, 기본키, 외래키, 속성들을 표시
+ ER Diagram을 바탕으로 Relational DB를 표현		
+ 객체들의 Cardinality, 기본키, 외래키, 속성들을 표시		
 
 ## 작성된 Table Schema를 토대로 Relation DB 설계 예시
 ### 1. 다운한 IMDB 파일을 읽어 MySQL에 데이터 삽입
