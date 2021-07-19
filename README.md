@@ -2,7 +2,9 @@
 IMDB에서 주어진 데이터를 활용해 MySQL에 Relation DB 구축하고 이를 이용해 검색하는 Python 응용프로그램을 만든다.
 
 
-[IMDB](https://www.imdb.com/interfaces/)에서 제공해주는 데이터에 대한 설명들
+
+
+##[IMDB](https://www.imdb.com/interfaces/)에서 제공해주는 데이터에 대한 설명      
 
 ### name.basics.tsv.gz
 
